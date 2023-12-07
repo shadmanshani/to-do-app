@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1D2E28;
+	color: white;
+}
+
+main {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.task-input {
+	margin: 50px 0;
+
+}
+
+.task-input h1 {
+	margin-bottom: 20px;
+}
+
+#new-task-input {
+	padding: 10px;
+	border: 1px solid #18392B;
+	font-size: 18px;
+	width: 100%;
+}
+
+#new-task-submit {
+	padding: 13px;
+	border: none;
+	outline: none;
+	background-color: #0F5132;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin: 10px 0;
+}
+
+.task-list h2 {
+	margin-bottom: 18px;
+}
+
+#tasks {
+	background-color: #212224;
+	padding: 20px;
+	border: 1px solid #18392B;
+}
+
+.task {
+	margin-bottom: 20px;
+	background-color: #1D2E28;
+	padding: 10px;
+}
+
+.text {
+	background-color: transparent;
+	border: none;
+	color: white;
+	width: 100%;
+	padding: 10px 3px;
+	border-bottom: 2px solid #0F5132;
+	margin-bottom: 10px;
+}
+
+.edit,
+.delete,
+.complete {
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #0F5132;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+
+.delete {
+	background-color: rgb(161, 42, 42);
+	margin: 0 8px;
+}
+
+.complete {
+	background-color: #5757b8;
+}
+
+.mark-completed {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
